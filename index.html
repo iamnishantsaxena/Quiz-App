@@ -1,0 +1,46 @@
+<!-- index.html -->
+
+<!--
+This is the main HTML file for the Quiz App project.
+It contains the structure and layout of the web page.
+The main content of the quiz app is displayed inside the container div.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz App</title>
+</head>
+<body>
+  <!-- The alert div displays alert messages to the user -->
+  <div class="alert">Alert</div>
+
+  <!-- The startBtn div represents the button to start the quiz -->
+  <div class="btn startBtn">Start</div>
+
+  <!-- The container div holds the main content of the quiz app -->
+  <div class="container">
+    <!-- The question div displays the current question to the user -->
+    <div class="question"></div>
+
+    <!-- The choices div displays the answer choices for the current question -->
+    <div class="choices"></div>
+
+    <!-- The nextBtn button allows the user to move to the next question -->
+    <button class="btn nextBtn">Next</button>
+
+    <!-- The scoreCard div displays the user's score during the quiz -->
+    <div class="scoreCard"></div>
+
+    <!-- The timer div displays the remaining time for each question -->
+    <div class="timer"></div>
+  </div>
+
+  <!-- The script.js file contains the JavaScript code for the quiz app -->
+  <script src="script.js"></script>
+</body>
+</html>
